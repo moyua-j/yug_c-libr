@@ -1,0 +1,78 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+//#include<string.h>
+//struct Book
+//{
+//	char name[20];
+//	short price;
+//};
+//int main()
+//{
+//	struct Book b1 = { "C语言",55 };
+//	printf("书名:%s\n", b1.name);
+//	printf("价格:%d\n", b1.price);
+//	b1.price = 40;
+//	strcpy(b1.name, "C++");
+//
+//	printf("修改后的书名:%s\n", b1.name);
+//	printf("修改后的价格:%d\n", b1.price);
+//	//return 0;
+//
+//	struct Book* pb = &b1;
+//	printf("%s\n", (*pb).name);
+//	printf("%d\n", (*pb).price);
+//
+//	printf("%s\n", pb->name);
+//	printf("%d\n", pb->price);
+//
+//	return 0;
+//
+//
+//}
+
+
+//
+
+//int main()
+//{
+//	int ch = getchar();
+//	putchar(ch);
+//	return 0;
+//
+//}
+
+//
+//int main()
+//{
+//	int ch = 0;
+//	while ((ch = getchar()) != EOF)
+//	{
+//		putchar(ch);
+//	}
+//	return 0;
+//}
+
+//
+//int main()
+//{
+//	int ret = 0;
+//	int ch = 0;
+//	char password[20] = { 0 };
+//	printf("请输入密码:");
+//	scanf("&s\n", password);
+//	/*while ((ch = getchar()) != '\n')
+//	{
+//		;
+//	}*/
+//	printf("请确认(Y/N):");
+//	ret = getchar();				//ret中为什么是49(字符1)呢？
+//	if (ret == 'Y')
+//	{
+//		printf("确认成功！");
+//	}
+//	else
+//	{
+//		printf("放弃确认！");
+//	}
+//	return 0;
+//}
